@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    
+    <title>Movies,Anmies and Series.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id = "home">
+    
+    <header id = "head">
+        <div id="log" class="logo">Watch TV</div>
+        <nav >
+            <ul >
+                <li><a id = "colornav" href = "favorited.html" target="_blank">المفضلة</a></li>
+                <li><a id="colornav" href="kids.html" target="_blank">الأطفال</a></li>
+                <li ><a id = "colornav" href="anime.html" target="_blank"> أنمي </a> </li>
+                <li><a id = "colornav" href="movies.html"  target="_blank">أفلام</a></li>
+                <li><a id = "colornav" href="series.html"  target="_blank">مسلسلات</a></li>
+                <li><a id = "colornav" href="trending.html"  target="_blank">الأكثر مشاهدة</a></li>
+
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <form onsubmit="return checkuser()"> 
+        <div dir = "rtl" class="form-container">
+            <label for="username">اسم المستخدم:</label>
+            <input type="text" id="username" name="username" placeholder="أدخل اسم المستخدم" required>
+            
+            <label for="password">كلمة المرور:</label>
+            <input type="password" id="password" name="password" placeholder="أدخل كلمة المرور" required>
+            
+            <button type="submit">تسجيل الدخول</button>
+        </div>
+    </form>
+
+
+
+    <script>
+        function checkuser() {
+            // الحصول على اسم المستخدم وكلمة المرور من المدخلات
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // تحقق من اسم المستخدم وكلمة المرور
+            if (username === "admin" && password === "1234") {
+                // فتح الموقع إذا كانت البيانات صحيحة
+               <a href="movies.html" ></a>
+       
+            } else {
+                // رسالة خطأ إذا كانت البيانات غير صحيحة
+                alert("اسم المستخدم أو كلمة المرور غير صحيحة");
+            }
+
+            return false; // منع إرسال النموذج بشكل طبيعي
+        }
+    </script>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 موقع شبيه نتفليكس. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

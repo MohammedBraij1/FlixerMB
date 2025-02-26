@@ -1,0 +1,165 @@
+body {
+  
+   
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ede8e8;
+    color: #fbfbfb;
+}
+
+#home{
+    background-image: url(image/wallpaperflare.com_wallpaper\ \(15\).jpg);
+    background-size: cover;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0)
+    
+    
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(66, 27, 27, 0.036)
+    }
+
+
+.logo {
+    
+    font-size: 24px;
+    font-weight: initial;
+    color: #000000;
+}
+#log{
+    font-size: 24px;
+    font-weight: initial;
+    color: #ffffff; 
+}
+
+
+nav ul  {
+    font-size: 22px;
+    list-style: none;
+    padding: 0;
+  
+    
+   
+
+}
+
+nav ul li {
+    display:inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+
+    color: #000000;
+    text-decoration: none;
+    
+}
+#colornav{
+    color: #ffffff;
+ 
+}
+
+
+
+
+
+
+
+.card-container {
+    margin: 10px;
+    display: flex;
+    
+    
+   
+    
+}
+
+.card {
+  
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #665a5a;
+    width: 200px;
+   
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 0px;
+    background-color: #55515153;
+    position: fixed;
+}
+
+
+
+
+/* تنسيق الحاوية التي تحتوي على النموذج */
+.form-container {
+    max-width: 300px; /* الحد الأقصى لعرض النموذج */
+    margin: 50px auto; /* توسيط النموذج على الصفحة */
+    padding: 20px;
+    background-color: #f1f1f1; /* خلفية فاتحة للنموذج */
+    border-radius: 10px; /* زوايا مدورة */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* إضافة ظل خفيف */
+}
+
+/* تنسيق لافتات الحقول */
+.form-container label {
+    display: block; /* عرض اللافتة على سطر منفصل */
+    margin-bottom: 10px;
+    font-weight: bold; /* جعل النص غامق */
+    color: #24b62b;
+    
+}
+
+/* تنسيق حقول الإدخال */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%; /* عرض الحقول بعرض الحاوية */
+    padding: 10px;
+    margin-bottom: 20px; /* مسافة بين الحقول */
+    border: 1px solid #ccc; /* حدود خفيفة */
+    border-radius: 5px; /* زوايا مدورة للحقل */
+    box-sizing: border-box; /* لضمان أن padding لا يؤثر على العرض */
+    font-size: 16px; /* حجم النص داخل الحقل */
+}
+
+/* تنسيق زر الإرسال */
+.form-container button {
+    width: 100%; /* عرض الزر بعرض الحاوية */
+    padding: 10px;
+    background-color: #4CAF50; /* لون خلفية أخضر */
+    color: white; /* لون النص */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* زوايا مدورة للزر */
+    font-size: 18px;
+    cursor: pointer; /* مؤشر يشير إلى أن العنصر قابل للنقر */
+}
+
+/* تأثير عند تمرير الفأرة على الزر */
+.form-container button:hover {
+    background-color: #45a049; /* تغيير لون الخلفية عند التمرير */
+}
